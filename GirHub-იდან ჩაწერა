@@ -1,0 +1,7 @@
+ფაილების ჩასაწერად:
+1) GitHub-ში გადადით ფაილძე
+2) შწეცვალეთ url
+  მაგ.: https://github.com/SabKa999/DataSciencePython/blob/main/climate.txt --> https://raw.githubusercontent.com/SabKa999/DataSciencePython/main/climate.txt
+3) დააიმპორტეთ Python-ში urllib.request ( from urllib.request import urlretrieve )
+4) შედეგად მიღებული url ჩაწერეთ urlretrieve() ფუქნციაში და მძიმით გამოტოვებით მიუწერეთ სახელი ფაილის
+  მაგ.: urlretrieve('https://raw.githubusercontent.com/SabKa999/DataSciencePython/main/climate.txt', 'climate.txt');
